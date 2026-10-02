@@ -1,0 +1,110 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.littleperson101.pokeloader",
+    "module": "pokeloader-fabric",
+    "version": "2.0.0+1.21.1-fabric",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.4.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "pokeloader-fabric-2.0.0+1.21.1-fabric.jar",
+          "url": "pokeloader-fabric-2.0.0+1.21.1-fabric.jar",
+          "size": 38987,
+          "sha512": "d19b1b152ea6793fca88645446941ea7fb6ceb15e3cc9b546e1f1d8e00edb50e13bbe0867edb4d71955a74d2662d4083419494f490b3c7cfb278342114275bb6",
+          "sha256": "cbd1ddf9327c0ef90c73cca6bf461b4dc9b285a7e95e16ebe1a09ed7a8c7b3cf",
+          "sha1": "9eb5806cb8e4298f1abedad7d174900e0fecfacb",
+          "md5": "e83b15451dcce0f8a5db52f17ebdbc55"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.19.2"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.116.12+1.21.1"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "11.0.4"
+          }
+        },
+        {
+          "group": "dev.isxander",
+          "module": "yet-another-config-lib",
+          "version": {
+            "requires": "3.6.1+1.21-fabric"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "pokeloader-fabric-2.0.0+1.21.1-fabric.jar",
+          "url": "pokeloader-fabric-2.0.0+1.21.1-fabric.jar",
+          "size": 38987,
+          "sha512": "d19b1b152ea6793fca88645446941ea7fb6ceb15e3cc9b546e1f1d8e00edb50e13bbe0867edb4d71955a74d2662d4083419494f490b3c7cfb278342114275bb6",
+          "sha256": "cbd1ddf9327c0ef90c73cca6bf461b4dc9b285a7e95e16ebe1a09ed7a8c7b3cf",
+          "sha1": "9eb5806cb8e4298f1abedad7d174900e0fecfacb",
+          "md5": "e83b15451dcce0f8a5db52f17ebdbc55"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "pokeloader-fabric-2.0.0+1.21.1-fabric-sources.jar",
+          "url": "pokeloader-fabric-2.0.0+1.21.1-fabric-sources.jar",
+          "size": 20845,
+          "sha512": "3468101dabf6a2e1158f669cba2033cc5c93f9a361073c1c88e3b69c705e6cac9b6ee379fa1c304ba74af6683cbeded34e9210fd79511d6f1e7baf9e85923ef5",
+          "sha256": "9f5902850b993205b09e046e3e724d4a7b9df1f2d34a539b781e67117049ee84",
+          "sha1": "4f351440278781841ac18c62ad346f2eed71d644",
+          "md5": "dacc5a7bb4e785e5dc7a1c4784db3831"
+        }
+      ]
+    }
+  ]
+}
